@@ -1,0 +1,33 @@
+#include <windows.h>
+#include "resource.h"
+
+1 24 "theme_xp.xml"
+
+IDI_ICON_LOGO ICON "icon.ico"
+IDI_ICON_TEST ICON "icon_1.ico"
+
+1 VERSIONINFO
+FILEVERSION 0,0,0,1
+PRODUCTVERSION 0,0,0,1
+FILETYPE VFT_APP
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "140104E4"
+        {
+            VALUE "CompanyName", "ABSOSM"
+            VALUE "FileVersion", "0.0.0.1"
+            VALUE "FileDescription", "Wa7sh Server"
+            VALUE "InternalName", "Project1"
+            VALUE "LegalCopyright", "Copyright absosm.com"
+            VALUE "LegalTrademarks", "Wa7sh Trademarks"
+            VALUE "OriginalFilename", "gui.exe"
+            VALUE "ProductName", "Wa7sh"
+            VALUE "ProductVersion", "0.0.0.1"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x1401, 1252
+    }
+}
